@@ -1,0 +1,39 @@
+{
+  "context": {
+    "projectId": "project-4660a35b-72e0-4edc-a3fa-2babebd6d6e3",
+    "runId": "run-0b6a0a1a-0bb6-4d3f-ae14-199c87948e6e",
+    "purpose": "build"
+  },
+  "scope": "current-run-only",
+  "otherRunIds": [],
+  "checkedAt": "2026-11-04T14:57:09.293Z",
+  "complete": false,
+  "issues": [
+    "QUERY_FAILED",
+    "ADOPTION_UNRECORDED",
+    "DELIVERY_UNRECORDED"
+  ],
+  "pending": 0,
+  "failedQueryCount": 1,
+  "queries": [
+    {
+      "receiptPath": "D:\\Cursor\\Grand\\dulizhan\\qingzhengglobal\\deliverables\\case-query-failed-30f07bc2-762f-4065-a648-62056cbb0ba8.json",
+      "requestId": "failed-30f07bc2-762f-4065-a648-62056cbb0ba8",
+      "request": {
+        "match": "fuzzy",
+        "sort": "relevance",
+        "limit": "5",
+        "query": "automotive assembly line automation fixture workstation",
+        "industry": "industrial automation equipment"
+      },
+      "status": 0,
+      "decision": "missing",
+      "decisionSent": false,
+      "caseSlugs": [],
+      "reason": "",
+      "externalReferences": []
+    }
+  ],
+  "deliveries": [],
+  "note": "Current run only; other runs are not certified. Adoption is agent-reported, not Owner acceptance or proven design improvement."
+}

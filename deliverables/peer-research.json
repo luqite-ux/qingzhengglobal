@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "customerIndustry": "automotive automation equipment and project engineering",
+  "products": ["assembly-line projects", "fixtures and turntables", "standard workstations"],
+  "targetBuyers": ["automotive manufacturing engineers (design hypothesis)", "project procurement teams (design hypothesis)"],
+  "peers": [
+    {
+      "url": "https://www.comau.com/en/our-offer/systems/body-in-white-manufacturing/", "source": "web", "normalizedDomain": "comau.com",
+      "pagesReviewed": [
+        {"kind":"home","url":"https://www.comau.com/en/our-offer/systems/body-in-white-manufacturing/","observation":"System proposition precedes solution, technology and product exploration.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/comau.txt","sha256":"c4d30dd0aedbbffa99a4ff2ade48282b05cb3909b074d6d6e675665ed32697a2"}},
+        {"kind":"navigation","url":"https://www.comau.com/en/our-offer/systems/body-in-white-manufacturing/","observation":"Navigation separates systems, products, services, industries and company content.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/comau.txt","sha256":"c4d30dd0aedbbffa99a4ff2ade48282b05cb3909b074d6d6e675665ed32697a2"}},
+        {"kind":"products","url":"https://www.comau.com/en/our-offer/systems/body-in-white-manufacturing/","observation":"Named system families lead to deeper technical routes rather than repeated RFQ cards.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/comau.txt","sha256":"c4d30dd0aedbbffa99a4ff2ade48282b05cb3909b074d6d6e675665ed32697a2"}}
+      ],
+      "overseasEvidence":{"country":"Italy","whyCompetitor":"Official automotive body-in-white automation provider with comparable project-oriented information architecture.","sourceUrl":"https://www.comau.com/en/our-offer/systems/body-in-white-manufacturing/"},
+      "homeSections":["system proposition","solution families","buyer priorities","contact"], "navigation":["systems","products and solutions","services","industries","about","news"], "productTaxonomy":["body-in-white systems","joining and handling technologies"], "adopt":["system-first hierarchy","different next steps for different buyer maturity"], "reject":["global-network and performance claims","Comau product names and technologies"], "evidence":[{"url":"https://www.comau.com/en/our-offer/systems/body-in-white-manufacturing/","observation":"Official page reviewed; structure only, no facts transferred."}]
+    },
+    {
+      "url": "https://www.vdlsteelweld.com/en/production-systems/body-in-white", "source": "web", "normalizedDomain": "vdlsteelweld.com",
+      "pagesReviewed": [
+        {"kind":"home","url":"https://www.vdlsteelweld.com/en/production-systems/body-in-white","observation":"System definition is followed by technologies, scope and contact.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/vdl-steelweld.txt","sha256":"2d72126bff2d3839f05f4e1eed9ed3ea16fea362c6c495184247347f4840aaf5"}},
+        {"kind":"navigation","url":"https://www.vdlsteelweld.com/en/production-systems/body-in-white","observation":"Production Systems, Manufacturing Services, Success Stories and Applications are distinct.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/vdl-steelweld.txt","sha256":"2d72126bff2d3839f05f4e1eed9ed3ea16fea362c6c495184247347f4840aaf5"}},
+        {"kind":"products","url":"https://www.vdlsteelweld.com/en/production-systems/body-in-white","observation":"Technology and delivery scope are contextualized before related routes.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/vdl-steelweld.txt","sha256":"2d72126bff2d3839f05f4e1eed9ed3ea16fea362c6c495184247347f4840aaf5"}}
+      ],
+      "overseasEvidence":{"country":"Netherlands","whyCompetitor":"Official body-in-white production systems supplier with project engineering structure.","sourceUrl":"https://www.vdlsteelweld.com/en/production-systems/body-in-white"},
+      "homeSections":["system definition","technologies","delivery scope","related approaches"], "navigation":["production systems","manufacturing services","success stories","applications"], "productTaxonomy":["body in white","industrial automation","robotic assembly lines"], "adopt":["separate projects from capabilities","explain engineering collaboration"], "reject":["volume and installed-base claims","VDL customer and technology assertions"], "evidence":[{"url":"https://www.vdlsteelweld.com/en/production-systems/body-in-white","observation":"Official page reviewed; structure only, no facts transferred."}]
+    },
+    {
+      "url": "https://www.sytecgroup.com/en/sector/automotive-automation/", "source": "web", "normalizedDomain": "sytecgroup.com",
+      "pagesReviewed": [
+        {"kind":"home","url":"https://www.sytecgroup.com/en/sector/automotive-automation/","observation":"Opening clearly states what is built and for whom.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/sytec.txt","sha256":"4c0250daabb651c51d1c72706ab2557587a27e9e8efd06459d85ace7ee64b3f4"}},
+        {"kind":"navigation","url":"https://www.sytecgroup.com/en/sector/automotive-automation/","observation":"Sectors, industrial automation, projects, news and contacts are distinct.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/sytec.txt","sha256":"4c0250daabb651c51d1c72706ab2557587a27e9e8efd06459d85ace7ee64b3f4"}},
+        {"kind":"products","url":"https://www.sytecgroup.com/en/sector/automotive-automation/","observation":"Assembly lines, robotic islands, test benches and software form clear entry points.","checkedAt":"2026-11-04T14:50:00+08:00","evidence":{"path":"deliverables/blueprint-evidence/sytec.txt","sha256":"4c0250daabb651c51d1c72706ab2557587a27e9e8efd06459d85ace7ee64b3f4"}}
+      ],
+      "overseasEvidence":{"country":"Italy","whyCompetitor":"Official custom automotive automation provider with comparable project and solution navigation.","sourceUrl":"https://www.sytecgroup.com/en/sector/automotive-automation/"},
+      "homeSections":["plain-language opening","capability groups","application examples","project process"], "navigation":["sectors","industrial automation","projects","news","contacts"], "productTaxonomy":["assembly lines","robotic islands","test benches","software"], "adopt":["plain-language opening","project-type exploration","design-to-delivery narrative"], "reject":["facility and certification claims","Sytec application and performance facts"], "evidence":[{"url":"https://www.sytecgroup.com/en/sector/automotive-automation/","observation":"Official page reviewed; structure only, no facts transferred."}]
+    }
+  ],
+  "caseIntake": []
+}

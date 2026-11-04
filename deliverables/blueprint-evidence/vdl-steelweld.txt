@@ -1,0 +1,5 @@
+Reviewed 2026-11-04 from https://www.vdlsteelweld.com/en/production-systems/body-in-white.
+HOME: the official body-in-white page moves from the system definition to technologies, delivery scope, related approaches and company contact.
+NAVIGATION: the official responsive output exposes Production Systems, Manufacturing Services, Success Stories and Applications, plus contact and news.
+PRODUCTS: the page explains body-in-white production systems and supporting joining, vision, transport and measurement topics as a structured capability story.
+Overseas basis: the official page shows VDL Steelweld headquarters in Breda, the Netherlands. Only structure is referenced; no VDL figures, technologies or customer claims are transferred.

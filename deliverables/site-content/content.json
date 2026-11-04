@@ -1,0 +1,43 @@
+{
+  "pages": {
+    "home": {
+      "order": [
+        "hero",
+        "seo"
+      ],
+      "modules": {
+        "hero": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Automotive automation equipment"
+            },
+            "title": {
+              "en": "Automation equipment built around your production requirement"
+            },
+            "body": {
+              "en": "Production and assembly lines, fixtures and turntables, and standard workstations, designed, customized and manufactured for the project in front of you."
+            },
+            "primary_label": {
+              "en": "Explore Solutions"
+            },
+            "secondary_label": {
+              "en": "Request a Quote"
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Kingsen | Automotive Automation Equipment Manufacturer"
+            },
+            "description": {
+              "en": "Kingsen designs and manufactures automotive production and assembly lines, fixtures and turntables, and standard workstations in Taicang, China."
+            }
+          }
+        }
+      }
+    }
+  }
+}

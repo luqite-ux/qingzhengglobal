@@ -1,0 +1,67 @@
+Create a complete, production-quality Next.js 16 App Router frontend for Taicang Qingzheng Automation Equipment Co., Ltd. (brand: Kingsen), an automotive automation equipment company. The site is English-first and inquiry-oriented, with locale-aware data interfaces ready for future languages. Do not connect Supabase, R2, the shared admin, GitHub or Vercel; Codex will complete those after source handoff.
+
+Customer facts and public identity:
+- Formal legal presentation: Taicang Qingzheng Automation Equipment Co., Ltd.; derived faithfully from the verified Chinese legal name 太仓青争自动化设备有限公司 for this delivery.
+- Brand: Kingsen. Domain: qingzhengglobal.com. Email: info@qingzhengglobal.com. Phone: +86 138 1291 7586. Public address: No. 123 Beihai Road, Taicang, Suzhou, Jiangsu, China.
+- Supported offer families: automotive production/assembly-line projects; fixtures and turntables; standard workstations; design, customization and manufacturing for project requirements.
+- Documented project groups: Motor Assembly Line; Hozon Neta Production Line; Geely Chengdu Body Side Line; Geely Jinzhong Production Line; Geely Shenyang FS12 Production Line; Geely DC1E Production Line; Li Auto Control Arm Line; Li Auto Subframe Line.
+- Do not invent target countries, certifications, installed-base counts, cycle times, accuracy, capacity, facility size, proprietary technologies, OEM endorsements, commercial terms, MOQ, lead time or response-time promises.
+
+Original user requirement, preserved: if videos exist, use them. The inspected package currently contains no video file or video URL, so create no empty or simulated video slot and do not source stock video.
+
+Brand and media:
+- Use the attached official customer logo in header and footer with object-fit contain, preserving its ratio. The logo links to Home.
+- Create a small-size favicon from the verifiable logo mark/initial treatment, not from v0, Vercel, Next.js or any template icon. Keep a single non-conflicting icon source in App Router metadata/assets.
+- Every attached file from the customer Banner folder must be used as one homepage carousel slide. There are exactly three customer Banner files; do not replace or omit any. Treat them as complete full-width visual assets, not cards or split-layout rectangles.
+- Each slide has independent focal point, copy alignment, safe area, object-position and 390px composition. Do not apply one global text side. Use real DOM text and controls. Avoid full-frame dark overlays; use minimal local contrast treatment only where needed. At 390px, move text below the image if the source safe area is insufficient.
+- Other attached project/workshop images are representative samples only. Do not infer total product counts from attachments. Build extensible lists/details; Codex will connect all 64 project images and all applicable Excel-embedded workshop/engineering images after download.
+
+Visual direction:
+- Premium, precise industrial engineering rather than a generic neon-blue tech template. Derive the main accent from the official logo and use dark graphite, clean off-white and controlled metallic/technical accents. Strong editorial hierarchy, crisp grids, disciplined spacing, moderate corners, real technical imagery, consistent line icons.
+- Avoid cheap glow, floating blobs, excessive glassmorphism, repeated identical three-card rows, emoji, unrelated stock photography and white photo frames that disconnect images from their sections.
+- All light/dark sections must explicitly define readable foregrounds and controls to WCAG AA. Product/project images remain complete and undistorted.
+
+Information architecture and routes:
+- Header must explicitly include Home. Routes: `/`, `/solutions`, `/solutions/assembly-lines`, `/solutions/fixtures-turntables`, `/solutions/standard-workstations`, `/projects`, `/projects/[slug]`, `/capabilities`, `/about`, `/news`, `/news/[slug]`, `/contact`.
+- All public entries that point to `/news` must be labelled exactly `News`. With no real published articles, show an honest empty state; do not create demo news.
+- Solutions and project cards must have real, non-empty routes, accessible whole-card links, keyboard focus and 390px touch behavior. Do not use `#` or route every card to a generic list.
+
+Homepage modules, in this buyer-decision order, with stable `data-section-id` values:
+1. `hero`: three customer Banner slides with distinct messages: solution scope, engineering/project collaboration, real project evidence. CTAs to Solutions, Projects and Request a Quote.
+2. `solution-paths`: assembly lines, fixtures/turntables, standard workstations; image-led and clearly differentiated.
+3. `featured-projects`: representative entries from the eight documented project groups, not fabricated products.
+4. `engineering-process`: Requirements Alignment → Engineering Design → Manufacturing & Assembly → Delivery Collaboration. Do not attach invented timing.
+5. `capability-evidence`: real engineering office, workshop, warehouse and machining-area imagery with factual contextual captions only.
+6. `project-gallery`: filterable and extensible project imagery, preserving complete subjects.
+7. `collaboration`: what project inputs buyers should prepare—process/product requirement, site constraints and requested scope—without commercial promises.
+8. `company`: verified identity, Kingsen brand, actual offer scope and real company imagery.
+9. `news-preview`: real published news only or an honest empty state.
+10. `rfq`: clear transition to the project-context inquiry form.
+Each module must add a distinct buyer decision fact; do not stretch the page with repeated slogans or duplicate CTA blocks.
+
+Inner-page responsibilities:
+- Solutions explains the three real offer families and how buyers distinguish them.
+- Projects lists all eight documented groups and supports independent detail templates with a complete image gallery and contextual inquiry.
+- Capabilities uses customer workshop/engineering evidence without guessing equipment models, tolerances or ownership beyond supplied text.
+- About explains who operates the business, what is provided, the engineering/manufacturing role and how to contact the company.
+- Contact/RFQ fields: name, business email, phone/WhatsApp optional, company, project/solution interest, requirement message and optional quantity/specification context. Include loading, error and success UI only; do not fake backend success with alert, console.log or setTimeout.
+
+Motion direction:
+- QZ-M01: short hierarchical hero DOM-text entrance and restrained manual/auto carousel cross-fade.
+- QZ-M02: a bounded fixture-alignment path for the four engineering stages, horizontal desktop and vertical mobile.
+- QZ-M03: every major section and every repeated card independently enters after real viewport entry; desktop around 20px/520ms, mobile around 10px/360ms, stagger capped. Never use a global timeout to mark unseen content as played.
+- QZ-M04: short navigation, filter, gallery, CTA, FAQ and form hover/focus/press feedback; mobile cannot depend on hover.
+- Base content is visible by default. Script failure restores visibility without consuming later animations. `prefers-reduced-motion` disables carousel auto-advance, path motion and displacement while preserving content and controls.
+
+Content and safety:
+- Never use warranty, warranties, guarantee, guaranteed, 质保, 保修 or equivalent promises anywhere, including metadata, FAQ, schema and alt text.
+- Do not expose internal audit language such as “customer supplied”, “verified”, “source file”, “representative-only”, “according to materials” or coverage counts.
+- Do not label the company as certified, globally networked or as owning capabilities not directly evidenced.
+- Use authentic B2B project language; do not show prices, cart, checkout or online payment.
+- Footer copyright: `© ${new Date().getFullYear()} Taicang Qingzheng Automation Equipment Co., Ltd. All rights reserved.` Normalize punctuation so no double period appears.
+
+Engineering requirements:
+- Next.js 16, TypeScript, maintainable components, sensible Server/Client boundaries, responsive images with dimensions/aspect ratios, accessible carousel controls, focus states, touch targets and no horizontal overflow at 390px.
+- Keep data definitions extensible and locale-aware. Initial static representative data is allowed only for v0 visual design; clearly isolate it so Codex can replace it with backend data.
+- Provide metadata foundations, canonical helpers, robots/sitemap foundations and JSON-LD component shapes, but do not invent schema facts, offers, prices, ratings, certifications or reviews.
+- Return a complete runnable project containing every required route and local asset reference. Do not return only an image or a single page.

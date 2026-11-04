@@ -1,0 +1,5 @@
+Reviewed 2026-11-04 from https://www.sytecgroup.com/en/sector/automotive-automation/.
+HOME: the opening states what the company builds and for whom, then moves through method, solution families, applications and contact.
+NAVIGATION: the official responsive output exposes About us, Sectors, Industrial automation, Projects, News and Contacts.
+PRODUCTS: solution entry points are grouped as assembly lines, robotic islands, test benches and software, with contextual links rather than duplicate RFQ cards.
+Overseas basis: the official page shows Sytec srl and an address in Treviso, Italy. Only structure is referenced; no Sytec certification, facility, application or performance facts are transferred.
